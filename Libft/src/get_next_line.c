@@ -6,7 +6,7 @@
 /*   By: vkannema <vkannema@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/12/08 11:56:06 by vkannema          #+#    #+#             */
-/*   Updated: 2016/12/13 15:20:13 by vkannema         ###   ########.fr       */
+/*   Updated: 2017/03/01 17:35:03 by vkannema         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,7 +36,7 @@ static char		*ft_put_line(char *str)
 	return (dest);
 }
 
-static char	*ft_delete(char *str)
+static char		*ft_delete(char *str)
 {
 	char	*dest;
 	int		i;
@@ -54,7 +54,7 @@ static char	*ft_delete(char *str)
 	return (dest);
 }
 
-int			get_next_line(const int fd, char **line)
+int				get_next_line(const int fd, char **line)
 {
 	static char		*buf;
 	int				ret;

@@ -6,7 +6,7 @@
 /*   By: vkannema <vkannema@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/04 11:50:45 by vkannema          #+#    #+#             */
-/*   Updated: 2017/02/23 13:58:48 by vkannema         ###   ########.fr       */
+/*   Updated: 2017/03/01 17:35:49 by vkannema         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@
 # include "../includes/libftprintf.h"
 # include <fcntl.h>
 
-#define BUFF_SIZE 32
+# define BUFF_SIZE 32
 
 typedef struct		s_list
 {

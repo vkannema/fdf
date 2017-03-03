@@ -1,4 +1,0 @@
-/Volumes/home_vkannema/Documents/fdf/main.c:14:10: fatal error: 'libftprintf.h' file not found
-#include <libftprintf.h>
-         ^
-1 error generated.
